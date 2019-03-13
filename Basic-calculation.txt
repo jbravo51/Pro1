@@ -1,0 +1,22 @@
+
+public class Pro1 {
+			public static void main(String[] args) 
+		{
+		    int in1=6,in2=8,sum=0,sub=0,mul=0;
+		    double div=0, x=0,y=0;
+		    System.out.println("					Basic Calculations Program  ");
+		    System.out.println("First number:  "+in1); 
+		    System.out.println("Second number: "+in2);
+		    sum=in1+in2;
+		    sub=in1-in2;
+		    mul=in1*in2;
+		    x=in1;
+		    y=in2;
+		    div=x/y;
+		    	       
+		    System.out.println("\nResult of Addition:        "+in1+"+"+in2+" = "+ sum);
+		    System.out.println("Result of Substration:     "+in1+"-"+in2+" = "+sub);
+		    System.out.println("Result of Multiplication:  "+in1+"*"+in2+" = "+mul);
+		    System.out.println("Result of Division:        "+in1+"/"+in2+" = "+div);
+		}
+	}
